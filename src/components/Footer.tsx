@@ -5,11 +5,11 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-white py-12">
+    <footer className="bg-gradient-to-b from-purple-50 to-purple-100 py-12">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="text-blue-500 font-heading font-bold text-2xl">
+            <a href="#" className="text-transparent bg-gradient-to-r from-teal-500 to-purple-600 bg-clip-text font-heading font-bold text-2xl">
               KB<span className="text-gray-800">.</span>
             </a>
             <p className="mt-2 text-gray-600 max-w-md">
@@ -18,13 +18,13 @@ const Footer = () => {
           </div>
           
           <div className="flex flex-col items-center md:items-end">
-            <nav>
+            <nav className="bg-white px-6 py-3 rounded-full shadow-sm">
               <ul className="flex space-x-6">
                 {['Home', 'About', 'Portfolio', 'Skills', 'Contact'].map((item) => (
                   <li key={item}>
                     <a
                       href={`#${item.toLowerCase()}`}
-                      className="text-gray-600 hover:text-blue-500 transition-colors text-sm"
+                      className="text-gray-600 hover:text-teal-500 transition-colors text-sm font-medium"
                     >
                       {item}
                     </a>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <Separator className="my-8" />
+        <Separator className="my-8 bg-gray-200" />
         
         <p className="text-center text-sm text-gray-500">
           Designed and developed with passion to showcase my engineering expertise.
