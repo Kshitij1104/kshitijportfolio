@@ -17,7 +17,7 @@ const About = () => {
             <p className="text-lg text-gray-700">
               I am a dedicated <span className="font-semibold text-primary">Mechanical Engineer</span> with a 
               strong foundation in design, analysis, and innovation. My journey in engineering began with a diploma from 
-              A.S Polytechnica and culminated in my graduation from MIT Academy of Engineering.
+              A.S Polytechnic and culminated in my graduation from MIT Academy of Engineering.
             </p>
             
             <p className="text-lg text-gray-700">
@@ -39,12 +39,14 @@ const About = () => {
                   <CardContent className="p-4">
                     <h5 className="font-medium">MIT Academy of Engineering</h5>
                     <p className="text-sm text-gray-500">Bachelor's Degree in Mechanical Engineering</p>
+                    <p className="text-xs text-gray-400 mt-1">2018 - 2022</p>
                   </CardContent>
                 </Card>
                 <Card className="border-l-4 border-l-primary hover:shadow-primary/10">
                   <CardContent className="p-4">
-                    <h5 className="font-medium">A.S Polytechnica</h5>
+                    <h5 className="font-medium">A. S. Polytechnic</h5>
                     <p className="text-sm text-gray-500">Diploma in Mechanical Engineering</p>
+                    <p className="text-xs text-gray-400 mt-1">2015 - 2018</p>
                   </CardContent>
                 </Card>
               </div>

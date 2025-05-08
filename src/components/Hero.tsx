@@ -89,9 +89,9 @@ const Hero = () => {
                 />
               </div>
               
-              {/* Status indicator */}
+              {/* Status indicator - moved to front with higher z-index */}
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg transform 
-                              transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                              transition-all duration-300 hover:-translate-y-1 hover:shadow-xl z-20">
                 <div className="flex gap-2 items-center">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                   <span className="text-gray-800 font-medium">Available for opportunities</span>
