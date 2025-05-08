@@ -32,8 +32,8 @@ const Navbar = () => {
       )}
     >
       <div className="container-custom flex items-center justify-between">
-        <a href="#" className="text-blue-500 font-heading font-bold text-2xl">
-          KB<span className="text-gray-800">.</span>
+        <a href="#" className="font-heading font-bold text-2xl">
+          <span className="text-primary">K</span><span className="text-gray-800">B.</span>
         </a>
 
         <nav className="hidden md:block">
@@ -42,7 +42,7 @@ const Navbar = () => {
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
-                  className="font-medium text-gray-600 hover:text-blue-500 transition-colors"
+                  className="font-medium text-gray-600 hover:text-primary transition-colors"
                 >
                   {item}
                 </a>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <li key={item} className="w-full text-center">
                   <a
                     href={`#${item.toLowerCase()}`}
-                    className="block py-2 text-lg font-medium text-gray-800 hover:text-blue-500"
+                    className="block py-2 text-lg font-medium text-gray-800 hover:text-primary"
                     onClick={() => setIsOpen(false)}
                   >
                     {item}

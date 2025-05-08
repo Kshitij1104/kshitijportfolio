@@ -5,11 +5,11 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-gradient-to-b from-purple-50 to-purple-100 py-12">
+    <footer className="bg-background py-12">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="text-transparent bg-gradient-to-r from-teal-500 to-purple-600 bg-clip-text font-heading font-bold text-2xl">
+            <a href="#" className="text-primary font-heading font-bold text-2xl">
               KB<span className="text-gray-800">.</span>
             </a>
             <p className="mt-2 text-gray-600 max-w-md">
@@ -24,7 +24,7 @@ const Footer = () => {
                   <li key={item}>
                     <a
                       href={`#${item.toLowerCase()}`}
-                      className="text-gray-600 hover:text-teal-500 transition-colors text-sm font-medium"
+                      className="text-gray-600 hover:text-primary transition-colors text-sm font-medium"
                     >
                       {item}
                     </a>

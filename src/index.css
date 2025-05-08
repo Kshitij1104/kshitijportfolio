@@ -5,7 +5,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    --background: 150 54% 94%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -14,24 +14,24 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 174 100% 37%;
+    --primary: 174 70% 37%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 260 81% 55%;
+    --secondary: 174 70% 47%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 150 54% 90%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 36 100% 50%;
+    --accent: 174 70% 37%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 174 100% 37%;
+    --border: 150 54% 84%;
+    --input: 150 54% 84%;
+    --ring: 174 70% 37%;
 
     --radius: 0.5rem;
   }
@@ -64,11 +64,11 @@
   }
 
   .btn-primary {
-    @apply bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-md transition-all shadow-md hover:shadow-lg;
+    @apply bg-primary hover:bg-primary/90 text-white font-semibold py-3 px-6 rounded-md transition-all shadow-md hover:shadow-lg;
   }
 
   .btn-outline {
-    @apply border-2 border-purple-500 text-purple-500 hover:bg-purple-50 font-semibold py-3 px-6 rounded-md transition-all;
+    @apply border-2 border-primary text-primary hover:bg-primary/10 font-semibold py-3 px-6 rounded-md transition-all;
   }
 
   .card {
