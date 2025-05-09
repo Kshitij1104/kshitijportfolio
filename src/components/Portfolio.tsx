@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "Engineering Analysis of Vertical Carousel Storage System",
     description: "Conducted comprehensive engineering analysis for Alphalogic Industries Ltd's vertical carousel storage system, optimizing structural integrity and operational efficiency through advanced CAD modeling and simulation.",
-    image: "/placeholder.svg",  // Will be replaced with actual image
+    image: "/lovable-uploads/413199f8-92b1-4666-b8ed-b150152853d5.png",
     tags: ["CAD Design", "Structural Analysis", "Industrial Equipment"],
     collaboration: "Alphalogic Industries Ltd."
   },
@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "Three Wheel Propulsion Cycle for Handicapped Person",
     description: "Designed and developed an innovative three-wheel propulsion cycle specifically engineered for individuals with mobility challenges, focusing on ergonomics, safety, and ease of use.",
-    image: "/placeholder.svg",  // Will be replaced with actual image
+    image: "/lovable-uploads/edaf1472-baad-4b53-842d-b052046a85b5.png",
     tags: ["Mechanical Design", "Accessibility", "Product Development"],
     collaboration: "Independent Project"
   },
@@ -24,9 +24,17 @@ const projects = [
     id: 3,
     title: "Solar Thermal Collector Project",
     description: "Engineered a high-efficiency solar thermal collector system, optimizing energy capture and thermal transfer while reducing material costs and environmental impact.",
-    image: "/placeholder.svg",  // Will be replaced with actual image
+    image: "/lovable-uploads/b1975f9e-5b99-4055-a364-4be3248dff91.png",
     tags: ["Renewable Energy", "Thermal Engineering", "Sustainability"],
     collaboration: "University Research"
+  },
+  {
+    id: 4,
+    title: "Capstone project- IBM Data Analysis Using Hadoop",
+    description: "Leveraged Hadoop ecosystem to process and analyze large datasets for business intelligence insights, creating interactive dashboards and comprehensive reports for data-driven decision making.",
+    image: "/lovable-uploads/4dbb5fba-d99e-4462-9a4f-1cc19a3b3a16.png",
+    tags: ["Data Analysis", "Hadoop", "Business Intelligence"],
+    collaboration: "IBM"
   }
 ];
 
@@ -40,10 +48,10 @@ const Portfolio = () => {
           <p className="text-gray-600">Showcasing my major engineering projects and achievements</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="project-card h-full flex flex-col group">
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 md:h-64 overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title}

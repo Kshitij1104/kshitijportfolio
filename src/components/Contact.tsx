@@ -91,7 +91,7 @@ const Contact = () => {
             {/* Social Media Contact Cards */}
             <div className="mt-6 flex flex-wrap gap-4">
               <a 
-                href="https://github.com/YOUR_USERNAME"
+                href="https://github.com/Kshitij1104"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200 hover:border-primary/30 hover:bg-primary/5 transition-all"
@@ -100,7 +100,7 @@ const Contact = () => {
                 <span>GitHub</span>
               </a>
               <a 
-                href="https://instagram.com/YOUR_USERNAME"
+                href="https://www.instagram.com/kshitij_.11/?__pwa=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200 hover:border-primary/30 hover:bg-primary/5 transition-all"
@@ -109,7 +109,7 @@ const Contact = () => {
                 <span>Instagram</span>
               </a>
               <a 
-                href="https://linkedin.com/in/YOUR_USERNAME"
+                href="https://www.linkedin.com/in/kshitij-bobade-48718a262"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200 hover:border-primary/30 hover:bg-primary/5 transition-all"

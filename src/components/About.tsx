@@ -58,7 +58,7 @@ const About = () => {
               <div className="absolute -z-10 w-full h-full bg-primary/20 rounded-2xl rotate-6 opacity-50"></div>
               <div className="w-full max-w-md aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="/placeholder.svg"
+                  src="/lovable-uploads/43513de7-958a-4b86-9f34-24138e9f48bd.png"
                   alt="Kshitij working on engineering designs" 
                   className="w-full h-full object-cover"
                 />

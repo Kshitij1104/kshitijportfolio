@@ -69,7 +69,7 @@ const Hero = () => {
             {/* Social Media Links */}
             <div className="flex gap-4 pt-2">
               <a 
-                href="https://github.com/YOUR_USERNAME" 
+                href="https://github.com/Kshitij1104" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary transition-colors"
@@ -78,7 +78,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="https://instagram.com/YOUR_USERNAME" 
+                href="https://www.instagram.com/kshitij_.11/?__pwa=1" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary transition-colors"
@@ -87,7 +87,7 @@ const Hero = () => {
                 <Instagram size={24} />
               </a>
               <a 
-                href="https://linkedin.com/in/YOUR_USERNAME" 
+                href="https://www.linkedin.com/in/kshitij-bobade-48718a262" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary transition-colors"
@@ -115,7 +115,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 
                              border-white shadow-xl relative z-10">
                 <img 
-                  src="/placeholder.svg" 
+                  src="/lovable-uploads/7ecfef02-c6f6-48d3-9336-b06f10b99ced.png" 
                   alt="Kshitij Bobade" 
                   className="w-full h-full object-cover"
                 />
