@@ -1,7 +1,6 @@
 
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
@@ -58,7 +57,6 @@ const Portfolio = () => {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-primary opacity-60 mix-blend-multiply"></div>
               </div>
               <div className="project-card-content flex-1 flex flex-col bg-white">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
