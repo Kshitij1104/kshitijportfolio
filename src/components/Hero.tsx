@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -63,6 +64,37 @@ const Hero = () => {
               >
                 <a href="#contact">Contact Me</a>
               </Button>
+            </div>
+            
+            {/* Social Media Links */}
+            <div className="flex gap-4 pt-2">
+              <a 
+                href="https://github.com/YOUR_USERNAME" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-primary transition-colors"
+                aria-label="GitHub"
+              >
+                <Github size={24} />
+              </a>
+              <a 
+                href="https://instagram.com/YOUR_USERNAME" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-primary transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={24} />
+              </a>
+              <a 
+                href="https://linkedin.com/in/YOUR_USERNAME" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-primary transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={24} />
+              </a>
             </div>
           </div>
           

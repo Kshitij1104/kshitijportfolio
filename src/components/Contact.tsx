@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { PhoneCall, Mail, MapPin, Send } from "lucide-react";
+import { PhoneCall, Mail, MapPin, Send, Github, Instagram, Linkedin } from "lucide-react";
 import { toast } from "sonner";
 
 const Contact = () => {
@@ -87,6 +87,37 @@ const Contact = () => {
                 </div>
               </CardContent>
             </Card>
+            
+            {/* Social Media Contact Cards */}
+            <div className="mt-6 flex flex-wrap gap-4">
+              <a 
+                href="https://github.com/YOUR_USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200 hover:border-primary/30 hover:bg-primary/5 transition-all"
+              >
+                <Github size={20} />
+                <span>GitHub</span>
+              </a>
+              <a 
+                href="https://instagram.com/YOUR_USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200 hover:border-primary/30 hover:bg-primary/5 transition-all"
+              >
+                <Instagram size={20} />
+                <span>Instagram</span>
+              </a>
+              <a 
+                href="https://linkedin.com/in/YOUR_USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200 hover:border-primary/30 hover:bg-primary/5 transition-all"
+              >
+                <Linkedin size={20} />
+                <span>LinkedIn</span>
+              </a>
+            </div>
             
             <div className="mt-8 p-6 bg-primary/5 rounded-lg border border-primary/10 shadow-sm">
               <h4 className="font-medium text-lg mb-4 text-primary">Looking Forward To Hearing From You</h4>

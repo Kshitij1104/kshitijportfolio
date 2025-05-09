@@ -39,14 +39,14 @@ const About = () => {
                   <CardContent className="p-4">
                     <h5 className="font-medium">MIT Academy of Engineering</h5>
                     <p className="text-sm text-gray-500">Bachelor's Degree in Mechanical Engineering</p>
-                    <p className="text-xs text-gray-400 mt-1">2018 - 2022</p>
+                    <p className="text-xs text-gray-400 mt-1">2022 - 2025</p>
                   </CardContent>
                 </Card>
                 <Card className="border-l-4 border-l-primary hover:shadow-primary/10">
                   <CardContent className="p-4">
-                    <h5 className="font-medium">A. S. Polytechnic</h5>
+                    <h5 className="font-medium">A.S Polytechnic</h5>
                     <p className="text-sm text-gray-500">Diploma in Mechanical Engineering</p>
-                    <p className="text-xs text-gray-400 mt-1">2015 - 2018</p>
+                    <p className="text-xs text-gray-400 mt-1">2019 - 2022</p>
                   </CardContent>
                 </Card>
               </div>

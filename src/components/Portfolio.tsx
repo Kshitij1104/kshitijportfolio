@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "Engineering Analysis of Vertical Carousel Storage System",
     description: "Conducted comprehensive engineering analysis for Alphalogic Industries Ltd's vertical carousel storage system, optimizing structural integrity and operational efficiency through advanced CAD modeling and simulation.",
-    image: "/placeholder.svg",
+    image: "/placeholder.svg",  // Will be replaced with actual image
     tags: ["CAD Design", "Structural Analysis", "Industrial Equipment"],
     collaboration: "Alphalogic Industries Ltd."
   },
@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "Three Wheel Propulsion Cycle for Handicapped Person",
     description: "Designed and developed an innovative three-wheel propulsion cycle specifically engineered for individuals with mobility challenges, focusing on ergonomics, safety, and ease of use.",
-    image: "/placeholder.svg",
+    image: "/placeholder.svg",  // Will be replaced with actual image
     tags: ["Mechanical Design", "Accessibility", "Product Development"],
     collaboration: "Independent Project"
   },
@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     title: "Solar Thermal Collector Project",
     description: "Engineered a high-efficiency solar thermal collector system, optimizing energy capture and thermal transfer while reducing material costs and environmental impact.",
-    image: "/placeholder.svg",
+    image: "/placeholder.svg",  // Will be replaced with actual image
     tags: ["Renewable Energy", "Thermal Engineering", "Sustainability"],
     collaboration: "University Research"
   }
@@ -44,12 +44,13 @@ const Portfolio = () => {
           {projects.map((project) => (
             <div key={project.id} className="project-card h-full flex flex-col group">
               <div className="relative h-48 overflow-hidden">
-                <div className="absolute inset-0 bg-primary opacity-80"></div>
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 mix-blend-overlay"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
                 />
+                <div className="absolute inset-0 bg-primary opacity-60 mix-blend-multiply"></div>
               </div>
               <div className="project-card-content flex-1 flex flex-col bg-white">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
